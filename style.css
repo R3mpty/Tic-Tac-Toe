@@ -32,9 +32,9 @@ header>h1 {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-        "one two three"
-        "four five six"
-        "seven eight nine"
+        "a b c"
+        "d e f"
+        "g h i"
 }
 
 .gameBoard > div{
@@ -51,40 +51,40 @@ header>h1 {
 }
 
 
-#one {
-    grid-area: one;
+#a {
+    grid-area: a;
 }
 
-#two {
-    grid-area: two;
+#b {
+    grid-area: b;
 }
 
-#three {
-    grid-area: three;
+#c {
+    grid-area: c;
 }
 
-#four {
-    grid-area: four;
+#d {
+    grid-area: d;
 }
 
-#five {
-    grid-area: five;
+#e {
+    grid-area: e;
 }
 
-#six {
-    grid-area: six;
+#f {
+    grid-area: f;
 }
 
-#seven {
-    grid-area: seven;
+#g {
+    grid-area: g;
 }
 
-#eight {
-    grid-area: eight;
+#h {
+    grid-area: h;
 }
 
-#nine {
-    grid-area: nine;
+#i {
+    grid-area: i;
 }
 
 
